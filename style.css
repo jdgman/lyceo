@@ -1,0 +1,41 @@
+body{
+  animation:rainbow 4s infinite;
+  background-repeat:no-repeat;
+  background-size:35.2%;
+  background-position:right top;
+  background-color:gold;
+  border-widht:thin;
+  border-style:dotted;
+  border-color:lightblue;
+  border-radius:30px;
+}
+
+img{
+  width:250px;
+}
+
+.flex{
+  display:flex;
+  flex-direction:row;
+  gap:1em;
+  float:right;
+}
+
+.item{
+  widht:100%;
+}
+
+@keyframes rainbow{
+  0%{color:blue;}
+  25%{color:purple;}
+  50%{color:green;}
+  100%{color:red;}
+}
+
+
+
+
+
+
+
+}
